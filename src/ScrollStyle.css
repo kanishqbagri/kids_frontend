@@ -1,0 +1,13 @@
+.movie-row img {
+    width: 125px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .movie-row img:hover {
+    transform: scale(1.2);
+    z-index: 1;
+  }
+  

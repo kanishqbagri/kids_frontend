@@ -1,0 +1,84 @@
+[
+  {
+    "Category": "Medium",
+    "Question": "If you have two US coins totaling 55 cents, and one of them is not a nickel, what are the coins?\"",
+    "Answer": "A half dollar and a nickel."
+  },
+  {
+    "Category": "Easy",
+    "Question": "How many times can you subtract 10 from 100?",
+    "Answer": "Only once. After subtracting 10 once, you would be subtracting from 90, not 100."
+  },
+  {
+    "Category": "Easy",
+    "Question": "You have a five-gallon jug and a three-gallon jug. How can you measure exactly four gallons of water?",
+    "Answer": "Fill up the five-gallon jug and pour it into the three-gallon jug. This leaves two gallons in the five-gallon jug. Pour out the three-gallon jug and pour the two gallons from the five-gallon jug into the three-gallon jug. Fill up the five-gallon jug again and pour one gallon into the three-gallon jug until it is full. This leaves four gallons in the five-gallon jug."
+  },
+  {
+    "Category": "Medium",
+    "Question": "What is always in front of you but can't be seen?",
+    "Answer": "The future."
+  },
+  {
+    "Category": "Easy",
+    "Question": "How many letters are in the alphabet?",
+    "Answer": "There are 11 letters in the alphabet."
+  },
+  {
+    "Category": "Easy",
+    "Question": "A doctor gives you three pills and tells you to take one every half-hour. How long will the pills last?",
+    "Answer": "Two hours. You take the first pill right away, the second pill 30 minutes later, and the third pill 60 minutes after you started."
+  },
+  {
+    "Category": "Easy",
+    "Question": "You have a candle and a matchstick. You enter a cold and dark room, and there is a coal stove, a kerosene lamp, and a fireplace in the room. What do you light first?\"",
+    "Answer": "The Matchstick"
+  },
+  {
+    "Category": "Easy",
+    "Question": "What can you catch but not throw?",
+    "Answer": "A cold."
+  },
+  {
+    "Category": "Easy",
+    "Question": "What starts with an E, ends with an E, but only contains one letter?",
+    "Answer": "An envelope."
+  },
+  {
+    "Category": "Easy",
+    "Question": "You are in a race and you overtake the second person. What place are you in?",
+    "Answer": "Second place."
+  },
+  {
+    "Category": "Easy",
+    "Question": "A man was driving a black car. His lights were off. The moon was not out. A woman dressed in all black was crossing the road. How did the man see the woman?",
+    "Answer": "It was daytime",
+    "field4": "and bright enough"
+  },
+  {
+    "Category": "Easy",
+    "Question": "A cowboy rode into town on Friday. He stayed in town for three days and rode out on Friday. How is that possible?",
+    "Answer": "the name of the cowboy's horse is Friday"
+  },
+  {
+    "Category": "Medium",
+    "Question": "You are given two ropes that each take an hour to burn completely. However, the ropes don't burn at a uniform rate, so they may not burn evenly. How can you measure exactly 45 minutes using only these two ropes?",
+    "Answer": "Light the first rope from both ends, and the second rope from only one end. After 30 minutes, the first rope will have burned completely. At this point, light the second rope from the other end. After 15 minutes, the second rope will have burned completely."
+  },
+  {
+    "Category": "Medium",
+    "Question": "You are given 12 balls that all look the same, except for one that is either heavier or lighter than the others. You are also given a scale. What is the minimum number of times you need to use the scale to determine which ball is different and whether it's heavier or lighter?",
+    "Answer": "Divide the 12 balls into three groups of four balls each."
+  },
+  {
+    "Category": "Easy",
+    "Question": "A rectangular room measures 10 feet by 12 feet. A piece of rope is cut to just fit around the perimeter of the room. If the rope is then cut into two equal pieces",
+    "Answer": "how long is each piece?",
+    "field4": "22 feet"
+  },
+  {
+    "Category": "Medium",
+    "Question": "How many degrees are in the interior angles of a triangle?",
+    "Answer": "180"
+  }
+]

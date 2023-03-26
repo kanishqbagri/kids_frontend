@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from './calvin.jpg';
+ 
 
 function App() {
   return (
