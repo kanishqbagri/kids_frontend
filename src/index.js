@@ -1,34 +1,51 @@
-import React, { useState } from 'react';
-import axios from 'axios';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import './index.css';
+// import ScrollStyle from './ScrollStyle';
+// import App from './App';
+import {Header, Tile, ButtonGenerate}  from './HeadernTile';
+import Tile1 from './Card';
+import reportWebVitals from './reportWebVitals';
+import Button1 from './Button';
 
-function App() {
-  const [response1, setResponse1] = useState('');
-  const [response2, setResponse2] = useState('');
+function App1(){
+  return(
+    <React.StrictMode>
+  
+      <Header />
+      
+      <div class="Tile">
+        <Tile />
+        <h2>Title</h2>
+        <p id="tile-content"></p>
+      </div>
+      
+      <Button1 />
 
-  const handleClick = async () => {
-    try {
-      const result1 = await axios.get('http://localhost:3000/api/puzzle1');
-      const result2 = await axios.get('http://localhost:3000/api/puzzle2');
-      setResponse1(result1.data);
-      setResponse2(result2.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>My App</h1>
-      </header>
-      <main>
-        <button onClick={handleClick}>Get Puzzles</button>
-        <div className="tile">{response1}</div>
-        <div className="tile">{response2}</div>
-      </main>
-    </div>
+      <Tile1 />
+  
+      <ButtonGenerate />
+  
+    </React.StrictMode>
   );
 }
+// ReactDOM.render(<App />, document.getElementById('root'));
 
-export default App;
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+
+
+
+
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+reportWebVitals();

@@ -63,7 +63,7 @@ function ButtonGenerate() {
   const handleButtonClick = () => {
     // Generate some data for the tile
     const data = {
-        title: 'My Card',
+        title: 'Answer',
         description: 'This is my card description.',
       };
 
