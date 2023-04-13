@@ -1,20 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css';
+import './QuizApp.css'; 
 
-function App() {
+
+function QuizApp() {
   const [question, setQuestion] = useState('');
   const [answer, setAnswer] = useState('');
   const [showAnswer, setShowAnswer] = useState(false);
 
+  useEffect(() => {
+    async function fetchPuzzle() {
+      try {
+        const response = await axios.get('http://localhost:3100/api/puzzles');
+     
+        if (response.data.length > 0) {
+          const randomIndex = Math.floor(Math.random() * response.data.length);
+          const randomPuzzle = response.data[randomIndex];
+        
+          setQuestion(randomPuzzle.Question);
+          setAnswer(randomPuzzle.Answer);
+          setShowAnswer(false);
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    fetchPuzzle();
+  }, []);
+
   const handleClick = async () => {
     try {
-    //   const response = await axios.get('http://54.237.96.136:3100/api/puzzles');
       const response = await axios.get('http://localhost:3100/api/puzzles');
      
       if (response.data.length > 0) {
-      const randomIndex = Math.floor(Math.random() * response.data.length);
-      const randomPuzzle = response.data[randomIndex];
+        const randomIndex = Math.floor(Math.random() * response.data.length);
+        const randomPuzzle = response.data[randomIndex];
       
         setQuestion(randomPuzzle.Question);
         setAnswer(randomPuzzle.Answer);
@@ -54,5 +75,4 @@ function App() {
   );
 }
 
-
-export default App;
+export default QuizApp;

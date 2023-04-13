@@ -8,37 +8,21 @@ import {Header, Tile, ButtonGenerate}  from './HeadernTile';
 import Tile1 from './Card';
 import reportWebVitals from './reportWebVitals';
 import Button1 from './Button';
+import { BrowserRouter } from 'react-router-dom';
+import Page1 from './page1';
+import QuizApp from './QuizApp';
+import RouteManager from './RouteManager';
 
-function App1(){
-  return(
-    <React.StrictMode>
-  
-      <Header />
-      
-      <div class="Tile">
-        <Tile />
-        <h2>Title</h2>
-        <p id="tile-content"></p>
-      </div>
-      
-      <Button1 />
-
-      <Tile1 />
-  
-      <ButtonGenerate />
-  
-    </React.StrictMode>
-  );
-}
 // ReactDOM.render(<App />, document.getElementById('root'));
 
+
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <RouteManager />
+  </BrowserRouter>,
   document.getElementById('root')
 );
-
 
 
 
