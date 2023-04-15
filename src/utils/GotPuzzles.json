@@ -1,84 +1,167 @@
 [
   {
-    "Category": "Medium",
-    "Question": "If you have two US coins totaling 55 cents, and one of them is not a nickel, what are the coins?\"",
+    "Category": "1",
+    "Question": "If you have two US coins totaling 55 cents, and one of them is not a nickel, what are the coins?",
     "Answer": "A half dollar and a nickel."
   },
   {
-    "Category": "Easy",
+    "Category": "2",
     "Question": "How many times can you subtract 10 from 100?",
-    "Answer": "Only once. After subtracting 10 once, you would be subtracting from 90, not 100."
+    "Answer": "Answer: Only once. After subtracting 10 once, you would be subtracting from 90, not 100."
   },
   {
-    "Category": "Easy",
+    "Category": "3",
     "Question": "You have a five-gallon jug and a three-gallon jug. How can you measure exactly four gallons of water?",
     "Answer": "Fill up the five-gallon jug and pour it into the three-gallon jug. This leaves two gallons in the five-gallon jug. Pour out the three-gallon jug and pour the two gallons from the five-gallon jug into the three-gallon jug. Fill up the five-gallon jug again and pour one gallon into the three-gallon jug until it is full. This leaves four gallons in the five-gallon jug."
   },
   {
-    "Category": "Medium",
+    "Category": "4",
     "Question": "What is always in front of you but can't be seen?",
-    "Answer": "The future."
+    "Answer": "Answer: The future."
   },
   {
-    "Category": "Easy",
+    "Category": "5",
     "Question": "How many letters are in the alphabet?",
-    "Answer": "There are 11 letters in the alphabet."
+    "Answer": "There are 11 letters in \"the alphabet.\""
   },
   {
-    "Category": "Easy",
+    "Category": "6",
     "Question": "A doctor gives you three pills and tells you to take one every half-hour. How long will the pills last?",
-    "Answer": "Two hours. You take the first pill right away, the second pill 30 minutes later, and the third pill 60 minutes after you started."
+    "Answer": "Answer: Two hours. You take the first pill right away, the second pill 30 minutes later, and the third pill 60 minutes after you started."
   },
   {
-    "Category": "Easy",
-    "Question": "You have a candle and a matchstick. You enter a cold and dark room, and there is a coal stove, a kerosene lamp, and a fireplace in the room. What do you light first?\"",
+    "Category": "7",
+    "Question": "You have a candle and a matchstick. You enter a cold and dark room, and there is a coal stove, a kerosene lamp, and a fireplace in the room. What do you light first?",
     "Answer": "The Matchstick"
   },
   {
-    "Category": "Easy",
+    "Category": "8",
     "Question": "What can you catch but not throw?",
-    "Answer": "A cold."
+    "Answer": "Answer: A cold."
   },
   {
-    "Category": "Easy",
+    "Category": "9",
     "Question": "What starts with an E, ends with an E, but only contains one letter?",
-    "Answer": "An envelope."
+    "Answer": "Answer: An envelope."
   },
   {
-    "Category": "Easy",
+    "Category": "10",
     "Question": "You are in a race and you overtake the second person. What place are you in?",
-    "Answer": "Second place."
+    "Answer": "Answer: Second place."
   },
   {
-    "Category": "Easy",
+    "Category": "11",
     "Question": "A man was driving a black car. His lights were off. The moon was not out. A woman dressed in all black was crossing the road. How did the man see the woman?",
-    "Answer": "It was daytime",
-    "field4": "and bright enough"
+    "Answer": "It was daytime, and bright enough"
   },
   {
-    "Category": "Easy",
+    "Category": "12",
     "Question": "A cowboy rode into town on Friday. He stayed in town for three days and rode out on Friday. How is that possible?",
     "Answer": "the name of the cowboy's horse is Friday"
   },
   {
-    "Category": "Medium",
+    "Category": "13",
     "Question": "You are given two ropes that each take an hour to burn completely. However, the ropes don't burn at a uniform rate, so they may not burn evenly. How can you measure exactly 45 minutes using only these two ropes?",
-    "Answer": "Light the first rope from both ends, and the second rope from only one end. After 30 minutes, the first rope will have burned completely. At this point, light the second rope from the other end. After 15 minutes, the second rope will have burned completely."
+    "Answer": "Light the first rope from both ends, and the second rope from only one end.\nAfter 30 minutes, the first rope will have burned completely. At this point, light the second rope from the other end.\nAfter 15 minutes, the second rope will have burned completely."
   },
   {
-    "Category": "Medium",
+    "Category": "14",
     "Question": "You are given 12 balls that all look the same, except for one that is either heavier or lighter than the others. You are also given a scale. What is the minimum number of times you need to use the scale to determine which ball is different and whether it's heavier or lighter?",
     "Answer": "Divide the 12 balls into three groups of four balls each."
   },
   {
-    "Category": "Easy",
-    "Question": "A rectangular room measures 10 feet by 12 feet. A piece of rope is cut to just fit around the perimeter of the room. If the rope is then cut into two equal pieces",
-    "Answer": "how long is each piece?",
-    "field4": "22 feet"
+    "Category": "15",
+    "Question": "There is a room that is 4x11, you are given a rope that fits just around the perimiter of the room, if you cut the rope in half what is the perimiter oftherope now?",
+    "Answer": "22"
   },
   {
-    "Category": "Medium",
+    "Category": "16",
     "Question": "How many degrees are in the interior angles of a triangle?",
     "Answer": "180"
+  },
+  {
+    "Category": "17",
+    "Question": "A train is a mile long, it runs at one mile per minute, there is a tunnel that is one mile long, how long will it take for the train to fully cross through the tunnel",
+    "Answer": "2 minutes"
+  },
+  {
+    "Category": "18",
+    "Question": " A man was making a liqud that could desolve anything, he showed it the crowd and said tha he had a bottle full of this liqud, what was wrong with his claim?",
+    "Answer": "The bottle would have been desolved"
+  },
+  {
+    "Category": "19",
+    "Question": "I’m tall when I’m young, and I’m short when I’m old. What am I?",
+    "Answer": "A candle"
+  },
+  {
+    "Category": "20",
+    "Question": "What month of the year has 28 days?",
+    "Answer": "all of them"
+  },
+  {
+    "Category": "21",
+    "Question": "There’s a one-story house in which everything is yellow. Yellow walls, yellow doors, yellow furniture. What color are the stairs?",
+    "Answer": "The house is a one-story house, which means there are no stairs."
+  },
+  {
+    "Category": "22",
+    "Question": "If it takes five machines five minutes to make five widgets, how long would it take 100 machines to make 100 widgets?",
+    "Answer": "It would still take five minutes. Each machine makes one widget in five minutes, so 100 machines would still make 100 widgets in five minutes."
+  },
+  {
+    "Category": "23",
+    "Question": "You are standing in front of a fork in the road. One path leads to a village where everyone tells the truth, and the other path leads to a village where everyone lies. You need to get to the village where everyone tells the truth. You can only ask one person one question. What question do you ask?",
+    "Answer": "Ask the person which path leads to their village. Since everyone in the truthful village tells the truth, they will point you to the correct path. In the lying village, everyone will lie, so they will also point you to the correct path (since the correct path is the opposite of what they say)."
+  },
+  {
+    "Category": "24",
+    "Question": "What has a head and a tail but no body?",
+    "Answer": "A coin"
+  },
+  {
+    "Category": "25",
+    "Question": "I am taken from a mine, and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+    "Answer": "A Pencil"
+  },
+  {
+    "Category": "26",
+    "Question": "What runs around the whole yard without moving?",
+    "Answer": "A Fence"
+  },
+  {
+    "Category": "27",
+    "Question": "What has a heart that doesn't beat?",
+    "Answer": "An Artichoke"
+  },
+  {
+    "Category": "28",
+    "Question": "What has a bed but never sleeps, and a mouth but never eats?",
+    "Answer": "A river"
+  },
+  {
+    "Category": "29",
+    "Question": "What can you hold in your right hand, but never in your left hand?",
+    "Answer": "Your Left Elbow"
+  },
+  {
+    "Category": "30",
+    "Question": "I am light as a feather, yet the strongest person can't hold me for much more than a minute. What am I?",
+    "Answer": "A breath"
+  },
+  {
+    "Category": "31",
+    "Question": "What has many keys but can't open any locks?",
+    "Answer": "A Keyboard"
+  },
+  {
+    "Category": "32",
+    "Question": "Why don't scientists trust atoms?",
+    "Answer": "Because they make up everything."
+  },
+  {
+    "Category": "33",
+    "Question": "Why did the math book look so sad?",
+    "Answer": "Because it had too many problems."
   }
 ]

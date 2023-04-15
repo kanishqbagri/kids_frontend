@@ -2,9 +2,6 @@ import React from 'react';
 import { AppBar, Toolbar, Typography, Card, CardContent, CardMedia, Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Switch, Routes, Route } from 'react-router-dom';
-import QuizApp from './QuizApp';
-import RouteManager from './RouteManager';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -72,7 +69,7 @@ function Page1() {
         </Link>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={3}>
+        {/* <Grid item xs={12} sm={6} md={3}>
           <Card className={classes.card}>
             <CardMedia
               className={classes.media}
@@ -106,7 +103,7 @@ function Page1() {
               </Typography>
             </CardContent>
           </Card>
-        </Grid>
+        </Grid> */}
       </Grid>
     </div>
   );
