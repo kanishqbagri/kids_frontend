@@ -99,12 +99,12 @@ function QuizApp() {
         </Grid> */}
         <Grid item>
           {/* <Typography>Question:</Typography> */}
-          <Typography variant="h6" align="left" backgroundColor= "#f2f2f2">Question: {question}</Typography>
+          <Typography variant="h6" align="left" backgroundColor= "#f2f2f2"><b>Question:</b> {question}</Typography>
         </Grid>
         {showAnswer && (
           <Grid item>
             {/* <Typography>Answer:</Typography> */}
-            <Typography variant="h6" align="left" backgroundColor= "#f2f2f2">Answer: {answer}</Typography>
+            <Typography variant="h6" align="left" backgroundColor= "#f2f2f2"><b>Answer:</b> {answer}</Typography>
           </Grid>
         )}
         {showAnswer ? null : (
