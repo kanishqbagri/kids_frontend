@@ -7,7 +7,7 @@
   {
     "Category": "2",
     "Question": "How many times can you subtract 10 from 100?",
-    "Answer": "Answer: Only once. After subtracting 10 once, you would be subtracting from 90, not 100."
+    "Answer": "Only once. After subtracting 10 once, you would be subtracting from 90, not 100."
   },
   {
     "Category": "3",
@@ -17,7 +17,7 @@
   {
     "Category": "4",
     "Question": "What is always in front of you but can't be seen?",
-    "Answer": "Answer: The future."
+    "Answer": "The future."
   },
   {
     "Category": "5",
@@ -27,7 +27,7 @@
   {
     "Category": "6",
     "Question": "A doctor gives you three pills and tells you to take one every half-hour. How long will the pills last?",
-    "Answer": "Answer: Two hours. You take the first pill right away, the second pill 30 minutes later, and the third pill 60 minutes after you started."
+    "Answer": "One hour. You take the first pill right away, the second pill 30 minutes later, and the third pill 60 minutes after you started."
   },
   {
     "Category": "7",
@@ -37,17 +37,17 @@
   {
     "Category": "8",
     "Question": "What can you catch but not throw?",
-    "Answer": "Answer: A cold."
+    "Answer": "A cold."
   },
   {
     "Category": "9",
     "Question": "What starts with an E, ends with an E, but only contains one letter?",
-    "Answer": "Answer: An envelope."
+    "Answer": "An envelope."
   },
   {
     "Category": "10",
     "Question": "You are in a race and you overtake the second person. What place are you in?",
-    "Answer": "Answer: Second place."
+    "Answer": "Second place."
   },
   {
     "Category": "11",
@@ -62,7 +62,7 @@
   {
     "Category": "13",
     "Question": "You are given two ropes that each take an hour to burn completely. However, the ropes don't burn at a uniform rate, so they may not burn evenly. How can you measure exactly 45 minutes using only these two ropes?",
-    "Answer": "Light the first rope from both ends, and the second rope from only one end.\nAfter 30 minutes, the first rope will have burned completely. At this point, light the second rope from the other end.\nAfter 15 minutes, the second rope will have burned completely."
+    "Answer": "Light the first rope from both ends, and the second rope from only one end.\r\nAfter 30 minutes, the first rope will have burned completely. At this point, light the second rope from the other end.\r\nAfter 15 minutes, the second rope will have burned completely."
   },
   {
     "Category": "14",
@@ -163,5 +163,60 @@
     "Category": "33",
     "Question": "Why did the math book look so sad?",
     "Answer": "Because it had too many problems."
+  },
+  {
+    "Category": "34",
+    "Question": "There are two ducks in front of a duck, two ducks behind a duck and a duck in the middle. How many ducks are there?",
+    "Answer": "3 ducks"
+  },
+  {
+    "Category": "35",
+    "Question": "Five people were eating apples, A finished before B, but behind C. D finished before E, but behind B. What was the finishing order?",
+    "Answer": "CABDE. Putting the first three in order, A finished in front of B but behind C, so CAB. Then, we know D finished before B, so CABD. We know E finished after D, so CABDE."
+  },
+  {
+    "Category": "36",
+    "Question": "A girl meets a lion and unicorn in the forest. The lion lies every Monday, Tuesday and Wednesday and the other days he speaks the truth. The unicorn lies on Thursdays, Fridays and Saturdays, and the other days of the week he speaks the truth. “Yesterday I was lying,” the lion told the girl. “So was I,” said the unicorn. What day is it?",
+    "Answer": "Thursday. The only day they both tell the truth is Sunday; but today can’t be Sunday because the lion also tells the truth on Saturday (yesterday). Going day by day, the only day one of them is lying and one of them is telling the truth with those two statements is Thursday."
+  },
+  {
+    "Category": "37",
+    "Question": "A farmer wants to cross a river and take with him a wolf, a goat and a cabbage. He has a boat, but it can only fit himself plus either the wolf, the goat or the cabbage. If the wolf and the goat are alone on one shore, the wolf will eat the goat. If the goat and the cabbage are alone on the shore, the goat will eat the cabbage. How can the farmer bring the wolf, the goat and the cabbage across the river without anything being eaten?",
+    "Answer": "First, the farmer takes the goat across. The farmer returns alone and then takes the wolf across, but returns with the goat. Then the farmer takes the cabbage across, leaving it with the wolf and returning alone to get the goat."
+  },
+  {
+    "Category": "38",
+    "Question": "Four people (Alex, Brook, Chris and Dusty) want to cross a river in a boat that can only carry 100kg. Alex weighs 90kg, Brook weighs 80kg, Chris weighs 60kg and Dusty weighs 40kg, and they have 20kg of supplies. How do they get across?",
+    "Answer": "There may be a couple variations that will work, but here’s one way: Chris and Dusty row across (combined 100kg), Dusty returns. Alex rows over, and Chris returns. Chris and Dusty row across again, Dusty returns. Brook rows across with the supplies (combined 100kg), and Chris returns. Chris and Dusty row across again."
+  },
+  {
+    "Category": "39",
+    "Question": "Four people are crossing a bridge at night, so they all need a torch—but they just have one that only lasts 15 minutes. Alice can cross in one minute, Ben in two minutes, Cindy in five minutes and Don in eight minutes. No more than two people can cross at a time; and when two cross, they have to go at the slower person’s pace. How do they get across in 15 minutes?",
+    "Answer": "Alice and Ben cross first in two minutes, and Alice crosses back alone with the torch in one minute. Then the two slowest people, Cindy and Don, cross in eight minutes. Ben returns in two minutes, and Alice and Ben return in two minutes. They just made it in 15 minutes exactly."
+  },
+  {
+    "Category": "40",
+    "Question": "Susan and Lisa decided to play tennis against each other. They bet $1 on each game they played. Susan won three bets and Lisa won $5. How many games did they play?",
+    "Answer": "Eleven. Because Lisa lost three games to Susan, she had lost $3 ($1 per game). So, she had to win back that $3 with three more games, then win another five games to win $5."
+  },
+  {
+    "Category": "41",
+    "Question": "If five cats can catch five mice in five minutes, how long will it take one cat to catch one mouse?",
+    "Answer": "Five minutes. Using the information we know, it would take one cat 25 minutes to catch all five mice (5x5=25). Then working backward and dividing 25 by five, we get five minutes for one cat to catch each mouse."
+  },
+  {
+    "Category": "42",
+    "Question": "There is a barrel with no lid and some wine in it. “This barrel of wine is more than half full,” says the woman. “No, it's not,” says the man. “It’s less than half full.” Without any measuring implements and without removing any wine from the barrel, how can they easily determine who is correct?",
+    "Answer": "Tilt the barrel until the wine barely touches the lip of the barrel. If the bottom of the barrel is visible then it is less than half full. If the barrel bottom is still completely covered by the wine, then it is more than half full."
+  },
+  {
+    "Category": "43",
+    "Question": "Three men are lined up behind each other. The tallest man is in the back and can see the heads of the two in front of him; the middle man can see the one man in front of him; the man in front can’t see anyone. They are blindfolded and hats are placed on their heads, picked from three black hats and two white hats. The extra two hats are hidden and the blindfolds removed. The tallest man is asked if he knows what color hat he’s wearing; he doesn’t. The middle man is asked if he knows; he doesn’t. But the man in front, who can’t see anyone, says he knows. How does he know, and what color hat is he wearing?",
+    "Answer": "Black. The man in front knew he and the middle man aren’t both wearing white hats or the man in the back would have known he had a black hat (since there are only two white hats). The man in front also knows the middle man didn’t see him with a white hat because if he did, based on the tallest man’s answer, the middle man would have known he himself was wearing a black hat. So, the man in front knows his hat must be black."
+  },
+  {
+    "Category": "44",
+    "Question": "There are three crates, one with apples, one with oranges, and one with both apples and oranges mixed. Each crate is closed and labeled with one of three labels: Apples, Oranges, or Apples and Oranges. The label maker broke and labeled all of the crates incorrectly. How could you pick just one fruit from one crate to figure out what’s in each crate?",
+    "Answer": "Pick a fruit from the crate marked Apples and Oranges. If that fruit is an apple, you know that the crate should be labeled Apples because all of the labels are incorrect as they are. Therefore, you know the crate marked Apples must be Oranges (if it were labeled Apples and Oranges, the Oranges crate would be labeled correctly, and we know it isn’t), and the one marked Oranges is Apples and Oranges. Alternately, if you picked an orange from the crate marked Apples and Oranges, you know that crate should be marked Oranges, the one marked Oranges must be Apples, and the one marked Apples must be Apples and Oranges."
   }
 ]

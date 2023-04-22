@@ -44,8 +44,8 @@ function QuizApp() {
   useEffect(() => {
     async function fetchPuzzle() {
       try {
-        // const response = await axios.get('http://localhost:3100/api/puzzles');
-        const response = await axios.get('http://100.25.204.223:3100/api/puzzles');
+        const response = await axios.get('http://localhost:3100/api/puzzles');
+        // const response = await axios.get('http://100.25.204.223:3100/api/puzzles');
 
         if (response.data.length > 0) {
           const randomIndex = Math.floor(Math.random() * response.data.length);

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Grid, TextField, Button, Typography } from '@material-ui/core';
 import Papa from 'papaparse';
+import Countries2 from './Capitals.csv'
 
 const useStyles = makeStyles((theme) => ({
   root: {

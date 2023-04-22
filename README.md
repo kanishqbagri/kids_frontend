@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Deploy to S3
+Build
+Tar xvf the build folder
+S3 upload
+aws s3 cp /Users/kanishkabagri/myProjects/kids/kids_frontend/build s3://kids.oneoddcollection.com --recursive --profile kids-profile
+Conection String for backend: 
+ const response = await axios.get('http://100.25.204.223:3100/api/puzzles');
