@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Page1 from './page1';
 import QuizApp from './QuizApp';
-import Countries from './Components/Countries';
+import Countries from './Countries';
 
 
 function RouteManager() {

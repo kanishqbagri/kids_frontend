@@ -16,6 +16,8 @@
     "mongodb": "^5.1.0",
     "papaparse": "^5.4.1",
     "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-confetti-explosion": "^2.1.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",

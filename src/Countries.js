@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Grid, TextField, Button, Typography } from '@material-ui/core';
 import Papa from 'papaparse';
-import Countries2 from './Capitals.csv'
+import capitalsCsv from './data/capitals.csv';
+import Confetti from 'react-confetti';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,47 +19,71 @@ const useStyles = makeStyles((theme) => ({
 function Countries() {
   const classes = useStyles();
   const [countries, setCountries] = useState([]);
-  const [country, setCountry] = useState(null);
+  const [country1, setCountry] = useState('');
   const [answer, setAnswer] = useState('');
   const [message, setMessage] = useState('');
+  const [showConfetti, setShowConfetti] = useState(false); // add this line
 
   useEffect(() => {
-    Papa.parse('./Capitals.csv', {
-      download: true,
-      header: true,
-      complete: (results) => {
-        console.log('Parsed data:', results.data);
-        setCountries(results.data);
-        setCountry(results.data[Math.floor(Math.random() * results.data.length)]);
-      },
-      error: (err) => {
-        console.log('Error parsing CSV:', err);
-      },
-    });
+    console.log('Country value:', country1);
+
+    fetch(capitalsCsv)
+      .then((response) => response.text())
+      .then((csvString) => {
+        Papa.parse(csvString, {
+          header: true,
+          complete: (results) => {
+            console.log('Parsed data:', results.data);
+            if (results.data.length > 0) {
+              const randomCountry = results.data[Math.floor(Math.random() * results.data.length)];
+              console.log('Random country:', randomCountry.Country);
+              console.log('Random country:', randomCountry.Capital);
+              setCountry(randomCountry.Country);
+              setAnswer(randomCountry.Capital);
+            }
+            setCountries(results.data);
+          },
+          error: (err) => {
+            console.log('Error parsing CSV:', err);
+          },
+        });
+      })
+      .catch((err) => {
+        console.log('Error fetching CSV:', err);
+      });
   }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const selectedCountry = countries.find((item) => item.country === country.country);
+    const selectedCountry = countries.find((item) => item.Country === country1);
     if (!selectedCountry) {
       setMessage('Error: Invalid country selected');
       return;
     }
-    const correct = answer.toLowerCase() === selectedCountry.capital.toLowerCase();
+    const correct = answer.toLowerCase() === selectedCountry.Capital.toLowerCase();
     if (correct) {
       setMessage('Correct!');
+      setShowConfetti(true);
+      setTimeout(() => {
+        setShowConfetti(false);
+      }, 3000);
     } else {
       setMessage(
-        `Incorrect. The capital of ${selectedCountry.country} is ${selectedCountry.capital}.`
+        <><b>Incorrect.</b> The capital of {selectedCountry.Country} is {selectedCountry.Capital}.</>
       );
     }
   };
+  
+  
 
   const handleNext = () => {
-    setCountry(countries[Math.floor(Math.random() * countries.length)]);
+    const randomCountry = countries[Math.floor(Math.random() * countries.length)];
+    setCountry(randomCountry.Country);
     setAnswer('');
     setMessage('');
+    setShowConfetti(false);
   };
+  
 
   return (
     <div className={classes.root}>
@@ -67,9 +92,9 @@ function Countries() {
           <Typography variant="h6">Countries and Capitals</Typography>
         </Toolbar>
       </AppBar>
-      {country && (
+      {country1 && (
         <Typography variant="h6" gutterBottom>
-          What is the capital of {country.country}?
+          What is the capital of {country1}?
         </Typography>
       )}
       <form onSubmit={handleSubmit}>
@@ -95,11 +120,12 @@ function Countries() {
           {message}
         </Typography>
       )}
+      {showConfetti && <Confetti />}
       <Button onClick={handleNext} variant="contained" color="primary">
         Next
       </Button>
     </div>
-  );
+  );  
 }
 
 export default Countries;
