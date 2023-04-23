@@ -39,7 +39,7 @@ function Countries() {
               console.log('Random country:', randomCountry.Country);
               console.log('Random country:', randomCountry.Capital);
               setCountry(randomCountry.Country);
-              setAnswer(randomCountry.Capital);
+              // setAnswer(randomCountry.Capital);
             }
             setCountries(results.data);
           },
