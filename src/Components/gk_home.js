@@ -42,7 +42,7 @@ function GeneralKnowledge() {
   const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
 
   // const axiosQuery='http://localhost:3100/api/gk?level=Easy';
-  const axiosQuery='http://54.237.96.136:3100/api/gk?level=Easy';
+  const axiosQuery='http://100.25.204.223:3100/api/gk?level=Easy';
   
 
 
