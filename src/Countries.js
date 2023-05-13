@@ -4,6 +4,7 @@ import { AppBar, Toolbar, Grid, TextField, Button, Typography } from '@material-
 import Papa from 'papaparse';
 import capitalsCsv from './data/capitals.csv';
 import Confetti from 'react-confetti';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -89,7 +90,8 @@ function Countries() {
     <div className={classes.root}>
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
-          <Typography variant="h6">Countries and Capitals</Typography>
+        <Button color="inherit" component={Link} to="/">Home</Button>
+        <Typography variant="h6" style={{ flexGrow: 1 }} align='right'>Countries and Capitals</Typography>
         </Toolbar>
       </AppBar>
       {country1 && (

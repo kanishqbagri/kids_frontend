@@ -69,6 +69,27 @@ function Page1() {
         </Link>
         </Grid>
 
+        <Grid item xs={12} sm={6} md={3}>
+        <Link to="/genknowledge">
+          <Card className={classes.card}>
+            <CardMedia
+              className={classes.media}
+              image="https://source.unsplash.com/featured/?knowledge"
+              title="General Knowledge"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Knowledge Nuggets
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+              Which is the highest mountain peak on Earth?
+              </Typography>
+            </CardContent>
+          </Card>
+          </Link>
+        </Grid>
+
+
         {/* <Grid item xs={12} sm={6} md={3}>
           <Card className={classes.card}>
             <CardMedia

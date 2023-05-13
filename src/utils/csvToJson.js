@@ -1,3 +1,5 @@
+// README: Run the script ---- node csvToJson.js -----
+
 const csvFilePath = './GotPuzzles.csv';
 const jsonFilePath = './GotPuzzles.json';
 

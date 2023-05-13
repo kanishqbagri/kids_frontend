@@ -4,6 +4,7 @@ import './QuizApp.css';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, Typography, Grid } from '@material-ui/core';
 import { TextField, Button } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -88,7 +89,8 @@ function QuizApp() {
     <div className={classes.root}>
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
-          <Typography variant="h6">Riddle World</Typography>
+          <Button color="inherit" component={Link} to="/">Home</Button>
+          <Typography variant="h6" style={{ flexGrow: 1 }} align='right'>Riddles</Typography>
         </Toolbar>
       </AppBar>
       <Grid container direction="column" alignItems="center" spacing={3}>

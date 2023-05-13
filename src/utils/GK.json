@@ -1,0 +1,971 @@
+[
+  {
+    "question": "Which is the coldest place in World?",
+    "choices": {
+      "1": "Antarctica",
+      "2": "Siberia",
+      "3": "Greenland",
+      "4": "Alaska"
+    },
+    "answer": "1",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is a ballerina's dress called?",
+    "choices": {
+      "1": "Leotard",
+      "2": "Ballet dress",
+      "3": "Tutu",
+      "4": "Pointe costume"
+    },
+    "answer": "3",
+    "category": "Trivia",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which is the wettest place in the World?",
+    "choices": {
+      "1": "Cherrapunji - India",
+      "2": "Llor\u00f3 - Colombia",
+      "3": "Tutunendo - Colombia",
+      "4": "Mawsynram - India"
+    },
+    "answer": "4",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which is the only confirmed active volcano in the World",
+    "choices": {
+      "1": "\"Mount Vesuvius",
+      "2": "Italy\"",
+      "3": "\"Kilauea",
+      "4": "Hawaii",
+      "5": "USA\"",
+      "6": "\"Mount Etna",
+      "7": "Italy\"",
+      "8": "\"Mount St. Helens",
+      "9": "USA\""
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "From which country does the piano originate?",
+    "choices": {
+      "1": "Germany",
+      "2": "Austria",
+      "3": "United States",
+      "4": "Italy"
+    },
+    "answer": "4",
+    "category": "Music",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What was the original name of New York City?",
+    "choices": {
+      "1": "New Amsterdam",
+      "2": "The Big Apple",
+      "3": "The Empire State",
+      "4": "Gotham"
+    },
+    "answer": "1",
+    "category": "Trivia",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What Sport does Tiger Woods play",
+    "choices": {
+      "1": "Soccer",
+      "2": "Cricket",
+      "3": "Baseball",
+      "4": "Golf"
+    },
+    "answer": "4",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What Sport does Tom Brady play",
+    "choices": {
+      "1": "Soccer",
+      "2": "Football",
+      "3": "Baseball",
+      "4": "Golf"
+    },
+    "answer": "2",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What Sport does Lewis Hamilton play",
+    "choices": {
+      "1": "Squash",
+      "2": "Football",
+      "3": "Baseball",
+      "4": "Racing"
+    },
+    "answer": "4",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What Sport does Daniil Medvedev play",
+    "choices": {
+      "1": "Soccer",
+      "2": "Tennis",
+      "3": "Baseball",
+      "4": "Racing"
+    },
+    "answer": "2",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What Sport does Kylian Mbappe Woods play",
+    "choices": {
+      "1": "Soccer",
+      "2": "Tennis",
+      "3": "Baseball",
+      "4": "Racing"
+    },
+    "answer": "1",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which is the fastest snake in the world?",
+    "choices": {
+      "1": "Black Mamba\r\nKing Cobra\r\nBoomslang\r\nTaipan"
+    },
+    "answer": "1",
+    "category": "Animals",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which is the driest continent in the world?",
+    "choices": {
+      "1": "Antarctica",
+      "2": "North America",
+      "3": "Australia",
+      "4": "Asia"
+    },
+    "answer": "1",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which is the largest and the heaviest lizard in the world?",
+    "choices": {
+      "1": "Asian Water Monitor",
+      "2": "Komodo dragon"
+    },
+    "answer": "2",
+    "category": "Animals",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Who wrote the Ramayana?",
+    "choices": {
+      "1": "Kali Das",
+      "2": "Ved Vyas",
+      "3": "Valmiki"
+    },
+    "answer": "2",
+    "category": "Literature",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which mosquito causes malaria?\r\n",
+    "choices": {
+      "1": "Anopheles",
+      "2": "Aedes"
+    },
+    "answer": "1",
+    "category": "Animals",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Lego comes from which country?",
+    "choices": {
+      "1": "France",
+      "2": "Russia",
+      "3": "USA",
+      "4": "Denmark"
+    },
+    "answer": "4",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "In the movie, \u2018Finding Nemo\u2019, which type of fish is Nemo",
+    "choices": {
+      "1": "Piranha",
+      "2": "Clown Fish",
+      "3": "Whale",
+      "4": "Scorpio"
+    },
+    "answer": "2",
+    "category": "Movie",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Who wrote The Famous Five book series ",
+    "choices": {
+      "1": "Enid Blyton",
+      "2": "Roald Dahl",
+      "3": "J.K. Rowling",
+      "4": "Agatha Christie"
+    },
+    "answer": "1",
+    "category": "Literature",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Who wrote The Harry Potter book series ",
+    "choices": {
+      "1": "Stephenie Meyer",
+      "2": "Suzanne Collins",
+      "3": "J.K. Rowling",
+      "4": "Veronica Roth"
+    },
+    "answer": "3",
+    "category": "Literature",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Who wrote The Lord of the Rings book series ",
+    "choices": {
+      "1": "George R.R. Martin",
+      "2": "Stephen King",
+      "3": "C.S. Lewis",
+      "4": "J.R.R. Tolkien"
+    },
+    "answer": "4",
+    "category": "Literature",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Who wrote The Tale of Twin Cities book ",
+    "choices": {
+      "1": "Jules Verne",
+      "2": "Charlotte Bronte",
+      "3": "Jack London",
+      "4": "Charles Dickens"
+    },
+    "answer": "4",
+    "category": "Literature",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which is the most visited country in the world ",
+    "choices": {
+      "1": "France",
+      "2": "Spain",
+      "3": "United States",
+      "4": "China",
+      "5": "Italy"
+    },
+    "answer": "1",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Who was the Founder of the religion, Buddhism ",
+    "choices": {
+      "1": "Confucius",
+      "2": "Lao Tzu",
+      "3": "Buddha",
+      "4": "Jesus Christ",
+      "5": "Prophet Muhammad"
+    },
+    "answer": "3",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is a boat\u2019s speed measured in ?",
+    "choices": {
+      "1": "Kilometers per hour (km/h)",
+      "2": "Miles per hour (mph)",
+      "3": "Knots (nautical miles per hour)",
+      "4": "Meters per second (m/s)",
+      "5": "Feet per second (ft/s)"
+    },
+    "answer": "3",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Who  has won the highest number of Formula 1 races",
+    "choices": {
+      "1": "Michael Schumacher",
+      "2": "Lewis Hamilton",
+      "3": "Ayrton Senna",
+      "4": "Alain Prost",
+      "5": "Sebastian Vettel"
+    },
+    "answer": "2",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What are the teeth at the back of the mouth used for grinding called",
+    "choices": {
+      "1": "Canines",
+      "2": "Incisors",
+      "3": "Molars",
+      "4": "Pre-molars",
+      "5": "Wisdom teeth"
+    },
+    "answer": "3",
+    "category": "General",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is a fertile spot in a desert, where water is found called?",
+    "choices": {
+      "1": "Oasis",
+      "2": "Savannah",
+      "3": "Tundra",
+      "4": "Prairie",
+      "5": "Taiga"
+    },
+    "answer": "1",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which place is called The Land of Five Rivers ",
+    "choices": {
+      "1": "Tibet",
+      "2": "Punjab",
+      "3": "Rajasthan",
+      "4": "Madhya Pradesh",
+      "5": "Uttar Pradesh"
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which place is called The City of Seven Hills ",
+    "choices": {
+      "1": "Mecca",
+      "2": "Rome",
+      "3": "Jerusalem",
+      "4": "Lisbon",
+      "5": "Athens"
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which is the fastest fish in the world?",
+    "choices": {
+      "1": "Swordfish",
+      "2": "Sailfish",
+      "3": "Marlin",
+      "4": "Tuna",
+      "5": "Barracuda"
+    },
+    "answer": "2",
+    "category": "Animals",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which country is known as the Land of White Elephants ",
+    "choices": {
+      "1": "Thailand",
+      "2": "India",
+      "3": "Indonesia",
+      "4": "Myanmar",
+      "5": "Cambodia"
+    },
+    "answer": "1",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is a Female Fox called?",
+    "choices": {
+      "1": "Vixen",
+      "2": "Doe",
+      "3": "Cow",
+      "4": "Hen",
+      "5": "Mare"
+    },
+    "answer": "1",
+    "category": "Animals",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is the former name of Democratic Republic of Congo ",
+    "choices": {
+      "1": "Belgian Congo",
+      "2": "Congo Free State",
+      "3": "Zaire",
+      "4": "Republic of the Congo",
+      "5": "French Congo"
+    },
+    "answer": "3",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is a substance composed of two or more metals is called ?\r\n",
+    "choices": {
+      "1": "Alloy",
+      "2": "Fusion",
+      "3": "Ore",
+      "4": "Pure metal"
+    },
+    "answer": "1",
+    "category": "General",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which country features the Star of David on its flag?\r\n",
+    "choices": {
+      "1": "Turkey",
+      "2": "Israel",
+      "3": "Spain",
+      "4": "Italy"
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which of these cats cannot roar?\r\n",
+    "choices": {
+      "1": "Jaguar",
+      "2": "Tiger",
+      "3": "Leopard",
+      "4": "Cheetah"
+    },
+    "answer": "4",
+    "category": "Animals",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "In which sport would you dig, set and spike?\r\n",
+    "choices": {
+      "1": "Golf",
+      "2": "Volleyball",
+      "3": "Cricket",
+      "4": "Tennis"
+    },
+    "answer": "2",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "How many sides does a Nonagon have?\r\n",
+    "choices": {
+      "1": "5",
+      "2": "9",
+      "3": "3",
+      "4": "12"
+    },
+    "answer": "2",
+    "category": "General",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "In which war were tanks used for the first time?\r\n",
+    "choices": {
+      "1": "Gulf War",
+      "2": "World War I",
+      "3": "Vietnam War",
+      "4": "World War II"
+    },
+    "answer": "2",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Most of the World's population lives Below the Equator, True Or False",
+    "choices": {
+      "1": "True",
+      "2": "False"
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Michael Jordan gave up basketball to try what sport in 1993?",
+    "choices": {
+      "1": "Soccer",
+      "2": "Golf",
+      "3": "Tennis",
+      "4": "Baseball"
+    },
+    "answer": "4",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "In the world of sports what does MVP mean?",
+    "choices": {
+      "1": "Most Valuable Point",
+      "2": "Most Versatile Player",
+      "3": "Most Valuable Player",
+      "4": "Most Valuable Pass"
+    },
+    "answer": "3",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "The Mojave desert is in which state?",
+    "choices": {
+      "1": "California",
+      "2": "Nevada",
+      "3": "Utah",
+      "4": "Arizona"
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is Pokemon an abbreviation of?",
+    "choices": {
+      "1": "Pocket Monsters",
+      "2": "Powerful Monsters",
+      "3": "Poke Balls",
+      "4": "Player Monsters"
+    },
+    "answer": "1",
+    "category": "General",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which sport dose the Heisman Trophy belong to?",
+    "choices": {
+      "1": "College Football",
+      "2": "Basketball",
+      "3": "Hockey",
+      "4": "Baseball"
+    },
+    "answer": "1",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "UNICEF is responsible for what group of people?",
+    "choices": {
+      "1": "Refugees",
+      "2": "Children",
+      "3": "Women",
+      "4": "The Elderly"
+    },
+    "answer": "2",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "In which American city is The Statue of Liberty is located?",
+    "choices": {
+      "1": "Washington D.C.",
+      "2": "Los Angeles",
+      "3": "New York",
+      "4": "San Francisco"
+    },
+    "answer": "3",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which year did the Second World War start?",
+    "choices": {
+      "1": "1939",
+      "2": "1940",
+      "3": "1941",
+      "4": "1940"
+    },
+    "answer": "3",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which year did the First World War start?",
+    "choices": {
+      "1": "1914",
+      "2": "1915",
+      "3": "1916",
+      "4": "1910"
+    },
+    "answer": "1",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is the largest Scandinavian country?",
+    "choices": {
+      "1": "Denmark",
+      "2": "Sweden",
+      "3": "Norway",
+      "4": "Finland"
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "choices": {
+      "1": "Oxygen",
+      "2": "Nitrogen",
+      "3": "Methane",
+      "4": "Carbon dioxide"
+    },
+    "answer": "4",
+    "category": "General",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "How many strings does a violin have?",
+    "choices": {
+      "1": "Four",
+      "2": "Five",
+      "3": "Six",
+      "4": "Seven"
+    },
+    "answer": "1",
+    "category": "Music",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is the name of the planet that is closest to the Earth?",
+    "choices": {
+      "1": "Mars",
+      "2": "Mercury",
+      "3": "Venus",
+      "4": "Jupiter"
+    },
+    "answer": "3",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "choices": {
+      "1": "Amazon",
+      "2": "Yangtze",
+      "3": "Mississippi-Missouri",
+      "4": "Nile"
+    },
+    "answer": "4",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Is the South Pole warmer than the North Pole?",
+    "choices": {
+      "1": "No",
+      "2": "Yes",
+      "3": "They are the same",
+      "4": "It depends on the season"
+    },
+    "answer": "1",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What does the Richter scale measure?",
+    "choices": {
+      "1": "Wind speed",
+      "2": "Ocean depth",
+      "3": "Earthquake magnitude",
+      "4": "Radiation levels"
+    },
+    "answer": "3",
+    "category": "General",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which country is the second biggest country in the world?",
+    "choices": {
+      "1": "Russia",
+      "2": "China",
+      "3": "Canada",
+      "4": "Brazil"
+    },
+    "answer": "3",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is the largest State in the United States of America?",
+    "choices": {
+      "1": "California",
+      "2": "Alaska",
+      "3": "Texas",
+      "4": "Montana"
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "In which country would you find the Eiffel Tower?",
+    "choices": {
+      "1": "France",
+      "2": "Italy",
+      "3": "Spain",
+      "4": "Germany"
+    },
+    "answer": "1",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Which language is spoken in Austria?",
+    "choices": {
+      "1": "English",
+      "2": "Italian",
+      "3": "French",
+      "4": "German"
+    },
+    "answer": "4",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "How many players are there in a baseball team?",
+    "choices": {
+      "1": "9",
+      "2": "10",
+      "3": "11",
+      "4": "12"
+    },
+    "answer": "1",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "How many players are there in a Basketball team?",
+    "choices": {
+      "1": "5",
+      "2": "6",
+      "3": "7",
+      "4": "8"
+    },
+    "answer": "1",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "How many players are there in a Football team?",
+    "choices": {
+      "1": "11",
+      "2": "12",
+      "3": "13",
+      "4": "14"
+    },
+    "answer": "1",
+    "category": "Sports",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What country is home to the Great Barrier Reef?",
+    "choices": {
+      "1": "New Zealand",
+      "2": "Australia",
+      "3": "Fiji",
+      "4": "Papua New Guinea"
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What country has a maple leaf on their national flag?",
+    "choices": {
+      "1": "United States",
+      "2": "Mexico",
+      "3": "Brazil",
+      "4": "Canada"
+    },
+    "answer": "4",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What is the Great Brrier Reef",
+    "choices": {
+      "1": "It is the world's largest coral reef system",
+      "2": "It is a chain of underwater mountains",
+      "3": "It is a vast network of rivers and lakes",
+      "4": "It is a desert in Africa"
+    },
+    "answer": "1",
+    "category": "General",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Tapas and paella are dishes that originated in what country?",
+    "choices": {
+      "1": "Spain",
+      "2": "Italy",
+      "3": "France",
+      "4": "Greece"
+    },
+    "answer": "1",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "What country was the first to land a man on the moon?",
+    "choices": {
+      "1": "Russia",
+      "2": "United States",
+      "3": "China",
+      "4": "Japan"
+    },
+    "answer": "2",
+    "category": "General",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "In what country is the Yangtze River found?",
+    "choices": {
+      "1": "India",
+      "2": "Vietnam",
+      "3": "China",
+      "4": "Thailand"
+    },
+    "answer": "3",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "The kiwi is a flightless bird that lives in what country?",
+    "choices": {
+      "1": "Australia",
+      "2": "Papua New Guinea",
+      "3": "Indonesia",
+      "4": "New Zealand"
+    },
+    "answer": "4",
+    "category": "Animals",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Adidas and Volkswagen are companies from what country?",
+    "choices": {
+      "1": "France",
+      "2": "Japan",
+      "3": "Germany",
+      "4": "United States"
+    },
+    "answer": "3",
+    "category": "World",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "In terms of land area, what is the largest country in the world?",
+    "choices": {
+      "1": "Russia",
+      "2": "China",
+      "3": "Canada",
+      "4": "United States"
+    },
+    "answer": "1",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  },
+  {
+    "question": "Mount Fuji is the highest mountain in what country?",
+    "choices": {
+      "1": "Australia",
+      "2": "Japan",
+      "3": "China",
+      "4": "India"
+    },
+    "answer": "2",
+    "category": "Geography",
+    "difficulty": "Easy",
+    "media": ""
+  }
+]
