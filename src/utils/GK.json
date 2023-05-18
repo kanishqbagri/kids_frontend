@@ -7,7 +7,7 @@
       "3": "Greenland",
       "4": "Alaska"
     },
-    "answer": "1",
+    "answer": "Antarctica",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -20,7 +20,7 @@
       "3": "Tutu",
       "4": "Pointe costume"
     },
-    "answer": "3",
+    "answer": "Tutu",
     "category": "Trivia",
     "difficulty": "Easy",
     "media": ""
@@ -41,17 +41,12 @@
   {
     "question": "Which is the only confirmed active volcano in the World",
     "choices": {
-      "1": "\"Mount Vesuvius",
-      "2": "Italy\"",
-      "3": "\"Kilauea",
-      "4": "Hawaii",
-      "5": "USA\"",
-      "6": "\"Mount Etna",
-      "7": "Italy\"",
-      "8": "\"Mount St. Helens",
-      "9": "USA\""
+      "1": "\"Mount Vesuvius - Italy\"",
+      "2": "\"Kilauea - Hawaii - USA\"",
+      "3": "\"Mount Etna - Italy\"",
+      "4": "\"Mount St. Helens - USA\""
     },
-    "answer": "2",
+    "answer": "Kilauea - Hawaii - USA",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -64,7 +59,7 @@
       "3": "United States",
       "4": "Italy"
     },
-    "answer": "4",
+    "answer": "Italy",
     "category": "Music",
     "difficulty": "Easy",
     "media": ""
@@ -77,7 +72,7 @@
       "3": "The Empire State",
       "4": "Gotham"
     },
-    "answer": "1",
+    "answer": "New Amsterdam",
     "category": "Trivia",
     "difficulty": "Easy",
     "media": ""
@@ -90,7 +85,7 @@
       "3": "Baseball",
       "4": "Golf"
     },
-    "answer": "4",
+    "answer": "Golf",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -103,7 +98,7 @@
       "3": "Baseball",
       "4": "Golf"
     },
-    "answer": "2",
+    "answer": "Football",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -116,7 +111,7 @@
       "3": "Baseball",
       "4": "Racing"
     },
-    "answer": "4",
+    "answer": "Racing",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -129,20 +124,20 @@
       "3": "Baseball",
       "4": "Racing"
     },
-    "answer": "2",
+    "answer": "Tennis",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
   },
   {
-    "question": "What Sport does Kylian Mbappe Woods play",
+    "question": "What Sport does Kylian Mbappe play",
     "choices": {
       "1": "Soccer",
       "2": "Tennis",
       "3": "Baseball",
       "4": "Racing"
     },
-    "answer": "1",
+    "answer": "Soccer",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -150,9 +145,12 @@
   {
     "question": "Which is the fastest snake in the world?",
     "choices": {
-      "1": "Black Mamba\r\nKing Cobra\r\nBoomslang\r\nTaipan"
+      "1": "Black Mamba",
+      "2": "King Cobra",
+      "3": "Boomslang",
+      "4": "Taipan"
     },
-    "answer": "1",
+    "answer": "Black Mamba",
     "category": "Animals",
     "difficulty": "Easy",
     "media": ""
@@ -165,7 +163,7 @@
       "3": "Australia",
       "4": "Asia"
     },
-    "answer": "1",
+    "answer": "Antarctica",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -176,7 +174,7 @@
       "1": "Asian Water Monitor",
       "2": "Komodo dragon"
     },
-    "answer": "2",
+    "answer": "Komodo dragon",
     "category": "Animals",
     "difficulty": "Easy",
     "media": ""
@@ -188,7 +186,7 @@
       "2": "Ved Vyas",
       "3": "Valmiki"
     },
-    "answer": "2",
+    "answer": "Valmiki",
     "category": "Literature",
     "difficulty": "Easy",
     "media": ""
@@ -199,7 +197,7 @@
       "1": "Anopheles",
       "2": "Aedes"
     },
-    "answer": "1",
+    "answer": "Anopheles",
     "category": "Animals",
     "difficulty": "Easy",
     "media": ""
@@ -212,7 +210,7 @@
       "3": "USA",
       "4": "Denmark"
     },
-    "answer": "4",
+    "answer": "Denmark",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -225,7 +223,7 @@
       "3": "Whale",
       "4": "Scorpio"
     },
-    "answer": "2",
+    "answer": "Clown Fish",
     "category": "Movie",
     "difficulty": "Easy",
     "media": ""
@@ -238,7 +236,7 @@
       "3": "J.K. Rowling",
       "4": "Agatha Christie"
     },
-    "answer": "1",
+    "answer": "Enid Blyton",
     "category": "Literature",
     "difficulty": "Easy",
     "media": ""
@@ -251,7 +249,7 @@
       "3": "J.K. Rowling",
       "4": "Veronica Roth"
     },
-    "answer": "3",
+    "answer": "J.K. Rowling",
     "category": "Literature",
     "difficulty": "Easy",
     "media": ""
@@ -264,7 +262,7 @@
       "3": "C.S. Lewis",
       "4": "J.R.R. Tolkien"
     },
-    "answer": "4",
+    "answer": "J.R.R. Tolkien",
     "category": "Literature",
     "difficulty": "Easy",
     "media": ""
@@ -277,7 +275,7 @@
       "3": "Jack London",
       "4": "Charles Dickens"
     },
-    "answer": "4",
+    "answer": "Charles Dickens",
     "category": "Literature",
     "difficulty": "Easy",
     "media": ""
@@ -291,7 +289,7 @@
       "4": "China",
       "5": "Italy"
     },
-    "answer": "1",
+    "answer": "France",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -301,11 +299,11 @@
     "choices": {
       "1": "Confucius",
       "2": "Lao Tzu",
-      "3": "Buddha",
+      "3": "Gautam Buddha",
       "4": "Jesus Christ",
       "5": "Prophet Muhammad"
     },
-    "answer": "3",
+    "answer": "Gautam Buddha",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -319,7 +317,7 @@
       "4": "Meters per second (m/s)",
       "5": "Feet per second (ft/s)"
     },
-    "answer": "3",
+    "answer": "Knots (nautical miles per hour)",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -333,7 +331,7 @@
       "4": "Alain Prost",
       "5": "Sebastian Vettel"
     },
-    "answer": "2",
+    "answer": "Lewis Hamilton",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -347,7 +345,7 @@
       "4": "Pre-molars",
       "5": "Wisdom teeth"
     },
-    "answer": "3",
+    "answer": "Molars",
     "category": "General",
     "difficulty": "Easy",
     "media": ""
@@ -361,7 +359,7 @@
       "4": "Prairie",
       "5": "Taiga"
     },
-    "answer": "1",
+    "answer": "Oasis",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -375,7 +373,7 @@
       "4": "Madhya Pradesh",
       "5": "Uttar Pradesh"
     },
-    "answer": "2",
+    "answer": "Punjab",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -389,7 +387,7 @@
       "4": "Lisbon",
       "5": "Athens"
     },
-    "answer": "2",
+    "answer": "Rome",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -403,7 +401,7 @@
       "4": "Tuna",
       "5": "Barracuda"
     },
-    "answer": "2",
+    "answer": "Sailfish",
     "category": "Animals",
     "difficulty": "Easy",
     "media": ""
@@ -417,7 +415,7 @@
       "4": "Myanmar",
       "5": "Cambodia"
     },
-    "answer": "1",
+    "answer": "Thailand",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -431,7 +429,7 @@
       "4": "Hen",
       "5": "Mare"
     },
-    "answer": "1",
+    "answer": "Vixen",
     "category": "Animals",
     "difficulty": "Easy",
     "media": ""
@@ -445,20 +443,20 @@
       "4": "Republic of the Congo",
       "5": "French Congo"
     },
-    "answer": "3",
+    "answer": "Zaire",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
   },
   {
-    "question": "What is a substance composed of two or more metals is called ?\r\n",
+    "question": "What is a substance composed of two or more metals is called ?\n",
     "choices": {
       "1": "Alloy",
       "2": "Fusion",
       "3": "Ore",
       "4": "Pure metal"
     },
-    "answer": "1",
+    "answer": "Alloy",
     "category": "General",
     "difficulty": "Easy",
     "media": ""
@@ -471,7 +469,7 @@
       "3": "Spain",
       "4": "Italy"
     },
-    "answer": "2",
+    "answer": "Israel",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -484,7 +482,7 @@
       "3": "Leopard",
       "4": "Cheetah"
     },
-    "answer": "4",
+    "answer": "Cheetah",
     "category": "Animals",
     "difficulty": "Easy",
     "media": ""
@@ -497,7 +495,7 @@
       "3": "Cricket",
       "4": "Tennis"
     },
-    "answer": "2",
+    "answer": "Volleyball",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -510,7 +508,7 @@
       "3": "3",
       "4": "12"
     },
-    "answer": "2",
+    "answer": "9",
     "category": "General",
     "difficulty": "Easy",
     "media": ""
@@ -523,7 +521,7 @@
       "3": "Vietnam War",
       "4": "World War II"
     },
-    "answer": "2",
+    "answer": "World War I",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -534,7 +532,7 @@
       "1": "True",
       "2": "False"
     },
-    "answer": "2",
+    "answer": "FALSE",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -547,7 +545,7 @@
       "3": "Tennis",
       "4": "Baseball"
     },
-    "answer": "4",
+    "answer": "Baseball",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -560,7 +558,7 @@
       "3": "Most Valuable Player",
       "4": "Most Valuable Pass"
     },
-    "answer": "3",
+    "answer": "Most Valuable Player",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -573,7 +571,7 @@
       "3": "Utah",
       "4": "Arizona"
     },
-    "answer": "2",
+    "answer": "Nevada",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -586,7 +584,7 @@
       "3": "Poke Balls",
       "4": "Player Monsters"
     },
-    "answer": "1",
+    "answer": "Pocket Monsters",
     "category": "General",
     "difficulty": "Easy",
     "media": ""
@@ -599,7 +597,7 @@
       "3": "Hockey",
       "4": "Baseball"
     },
-    "answer": "1",
+    "answer": "College Football",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -612,7 +610,7 @@
       "3": "Women",
       "4": "The Elderly"
     },
-    "answer": "2",
+    "answer": "Children",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -625,7 +623,7 @@
       "3": "New York",
       "4": "San Francisco"
     },
-    "answer": "3",
+    "answer": "New York",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -638,7 +636,7 @@
       "3": "1941",
       "4": "1940"
     },
-    "answer": "3",
+    "answer": "1941",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -651,7 +649,7 @@
       "3": "1916",
       "4": "1910"
     },
-    "answer": "1",
+    "answer": "1914",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -664,7 +662,7 @@
       "3": "Norway",
       "4": "Finland"
     },
-    "answer": "2",
+    "answer": "Sweden",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -677,7 +675,7 @@
       "3": "Methane",
       "4": "Carbon dioxide"
     },
-    "answer": "4",
+    "answer": "Carbon dioxide",
     "category": "General",
     "difficulty": "Easy",
     "media": ""
@@ -690,7 +688,7 @@
       "3": "Six",
       "4": "Seven"
     },
-    "answer": "1",
+    "answer": "Four",
     "category": "Music",
     "difficulty": "Easy",
     "media": ""
@@ -703,7 +701,7 @@
       "3": "Venus",
       "4": "Jupiter"
     },
-    "answer": "3",
+    "answer": "Venus",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -716,7 +714,7 @@
       "3": "Mississippi-Missouri",
       "4": "Nile"
     },
-    "answer": "4",
+    "answer": "Nile",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -729,7 +727,7 @@
       "3": "They are the same",
       "4": "It depends on the season"
     },
-    "answer": "1",
+    "answer": "No",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -742,7 +740,7 @@
       "3": "Earthquake magnitude",
       "4": "Radiation levels"
     },
-    "answer": "3",
+    "answer": "Earthquake magnitude",
     "category": "General",
     "difficulty": "Easy",
     "media": ""
@@ -755,7 +753,7 @@
       "3": "Canada",
       "4": "Brazil"
     },
-    "answer": "3",
+    "answer": "Canada",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -768,7 +766,7 @@
       "3": "Texas",
       "4": "Montana"
     },
-    "answer": "2",
+    "answer": "Alaska",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -781,7 +779,7 @@
       "3": "Spain",
       "4": "Germany"
     },
-    "answer": "1",
+    "answer": "France",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -794,7 +792,7 @@
       "3": "French",
       "4": "German"
     },
-    "answer": "4",
+    "answer": "German",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -807,7 +805,7 @@
       "3": "11",
       "4": "12"
     },
-    "answer": "1",
+    "answer": "9",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -820,7 +818,7 @@
       "3": "7",
       "4": "8"
     },
-    "answer": "1",
+    "answer": "5",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -833,7 +831,7 @@
       "3": "13",
       "4": "14"
     },
-    "answer": "1",
+    "answer": "11",
     "category": "Sports",
     "difficulty": "Easy",
     "media": ""
@@ -846,7 +844,7 @@
       "3": "Fiji",
       "4": "Papua New Guinea"
     },
-    "answer": "2",
+    "answer": "Australia",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -859,7 +857,7 @@
       "3": "Brazil",
       "4": "Canada"
     },
-    "answer": "4",
+    "answer": "Canada",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -872,7 +870,7 @@
       "3": "It is a vast network of rivers and lakes",
       "4": "It is a desert in Africa"
     },
-    "answer": "1",
+    "answer": "It is the world's largest coral reef system",
     "category": "General",
     "difficulty": "Easy",
     "media": ""
@@ -885,7 +883,7 @@
       "3": "France",
       "4": "Greece"
     },
-    "answer": "1",
+    "answer": "Spain",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -898,7 +896,7 @@
       "3": "China",
       "4": "Japan"
     },
-    "answer": "2",
+    "answer": "United States",
     "category": "General",
     "difficulty": "Easy",
     "media": ""
@@ -911,7 +909,7 @@
       "3": "China",
       "4": "Thailand"
     },
-    "answer": "3",
+    "answer": "China",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -924,7 +922,7 @@
       "3": "Indonesia",
       "4": "New Zealand"
     },
-    "answer": "4",
+    "answer": "New Zealand",
     "category": "Animals",
     "difficulty": "Easy",
     "media": ""
@@ -937,7 +935,7 @@
       "3": "Germany",
       "4": "United States"
     },
-    "answer": "3",
+    "answer": "Germany",
     "category": "World",
     "difficulty": "Easy",
     "media": ""
@@ -950,7 +948,7 @@
       "3": "Canada",
       "4": "United States"
     },
-    "answer": "1",
+    "answer": "Russia",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""
@@ -963,7 +961,7 @@
       "3": "China",
       "4": "India"
     },
-    "answer": "2",
+    "answer": "Japan",
     "category": "Geography",
     "difficulty": "Easy",
     "media": ""

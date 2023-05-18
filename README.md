@@ -74,5 +74,10 @@ Build
 Tar xvf the build folder
 S3 upload
 aws s3 cp /Users/kanishkabagri/myProjects/kids/kids_frontend/build s3://kids.oneoddcollection.com --recursive --profile kids-profile
-Conection String for backend: 
+
+#Backend:
 const response = await axios.get('http://100.25.204.223:3100/api/puzzles');
+Git Pull develop 
+pm2 start /home/ubuntu/WEBAPP/kids_backend/server.js
+Conection String for backend: 
+

@@ -41,12 +41,15 @@ function GeneralKnowledge() {
   const [celebrationGif, setCelebrationGif] = useState(null);
   const [submitButtonDisabled, setSubmitButtonDisabled] = useState(false);
 
-  // const axiosQuery='http://localhost:3100/api/gk?level=Easy';
-  const axiosQuery='http://100.25.204.223:3100/api/gk?level=Easy';
-  
+
+  // Calculate the number of questions to retrieve based on the user's timestamp
+  const timestamp = new Date().getTime();
+  const lastTwoBitsSum = timestamp & 0b11; // Get the sum of the last two bits
+  const questionCount = 50 + lastTwoBitsSum; // Calculate the number of questions to retrieve
 
 
-
+  const axiosQuery=`http://localhost:3100/api/gk?level=Easy&count=${questionCount}&offset=${lastTwoBitsSum}`;
+  // const axiosQuery='http://100.25.204.223:3100/api/gk?level=Easy';
   
   const handleRadioChange = (event) => {
     setSelectedOption(parseInt(event.target.value));
@@ -56,10 +59,13 @@ function GeneralKnowledge() {
     if (selectedOption !== null) {
       let message = '';
       const choices = questions[currentQuestionIndex].choices;
-      const answerKey = parseInt(questions[currentQuestionIndex].answer);
-      const correctAnswer = choices[answerKey];
+      const correctAnswer = questions[currentQuestionIndex].answer;
 
-      if (selectedOption === answerKey) {
+    const selectedOptionText = choices[selectedOption].trim().toLowerCase();
+    const correctAnswerText = correctAnswer.trim().toLowerCase();
+
+
+      if (selectedOptionText === correctAnswerText) {
         setScore(score + 1);
         message = "Correct answer! Well done!";
         setCelebrationGif(minionGif);
@@ -111,7 +117,11 @@ function GeneralKnowledge() {
         const fetchedQuestions = response.data;
 
          // Randomize the initial order of questions
-         const randomizedQuestions = shuffleArray(fetchedQuestions);
+         const randomizedQuestions = shuffleArray(fetchedQuestions).map((question) => ({
+          ...question,
+          choices: shuffleArray(Object.values(question.choices)),
+        }));
+
          setQuestions(randomizedQuestions);
 
       } catch (error) {
